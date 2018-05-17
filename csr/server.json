@@ -1,0 +1,10 @@
+{
+  "CN": "Airy Connect Server",
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  },
+  "hosts": [
+    ""
+  ]
+}

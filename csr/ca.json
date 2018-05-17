@@ -1,0 +1,7 @@
+{
+  "CN": "Airy Connect CA",
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  }
+}
