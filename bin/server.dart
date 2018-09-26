@@ -37,7 +37,7 @@ Future<void> main(List<String> args) async {
       final ApiServer apiServer = new ApiServer();
       apiServer.addApi(new Api());
       HttpServer server = await HttpServer.bind(
-        InternetAddress.ANY_IP_V4,
+        InternetAddress.anyIPv4,
         8081,
       );
       server.listen(apiServer.httpRequestHandler);
